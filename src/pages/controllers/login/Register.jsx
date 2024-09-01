@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "./Login.css";
+import { FormControl } from "react-bootstrap";
 
 export function Register() {
     const navigate = useNavigate()
@@ -13,7 +14,8 @@ export function Register() {
         <div className="form_input">
           <label>
             Nombre*
-            <input type="text" />
+            {/*<input type="text" />*/}
+            <FormControl size="sm" className="bg bg-transparent border-bottom" />
           </label>
         </div>
         <div className="form_input">
@@ -25,7 +27,7 @@ export function Register() {
         <div className="form_input">
           <label>
             Fecha de nacimiento*
-            <input type="text" />
+            <input type="date" />
           </label>
         </div>
         <div className="form_input">
