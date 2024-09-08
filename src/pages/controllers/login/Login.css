@@ -24,38 +24,6 @@ details[open] {
   letter-spacing: 0.5px;
 }
 
-.c-m {
-  margin: 0%;
-  padding: 0%;
-  width: 100%;
-  max-width: 1000px;
-  height: 100vh;
-  z-index: 100;
-  position: fixed;
-  display: none;
-  background: rgba(0, 0, 0, 50%);
-}
-
-.div_content_m {
-  margin-left: 100px;
-  margin-top: 120px;
-  max-width: 300px;
-  height: 590px;
-  border-radius: 50px 0 0 50px;
-  background: white;
-  right: 0;
-}
-
-.div_content_m {
-  max-width: 300px;
-  width: 100%;
-  padding: 0 40px;
-}
-
-.div_content_m > div > p {
-  color: rgb(24, 138, 167);
-}
-
 #btn_modal {
   display: none;
 }
@@ -138,10 +106,10 @@ svg {
   margin: 25px 0;
 }
 
-.servi,
-.div_home_img1 {
+.servi {
   padding: 30px 30px 0 40px;
-  max-width: 900px;
+  max-width: 300px;
+  margin: auto;
 }
 
 .div_home_img1 {
@@ -226,16 +194,11 @@ p {
   font-weight: 100;
 }
 
-.p_li_home,
-.div_content_m > div > p {
+.p_li_home {
   color: white;
   line-height: 5px;
   font-weight: 600;
   text-decoration: none;
-}
-
-.div_content_m > div > p {
-  color: rgb(24, 138, 167);
 }
 
 .p_ingresar,

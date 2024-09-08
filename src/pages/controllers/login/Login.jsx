@@ -46,7 +46,10 @@ export function Login() {
             Facebook
           </a>
           <p className="p_olvidar_contraseña">
-            <a className="a_olvidar_contraseña" href="">
+            <a
+              className="a_olvidar_contraseña"
+              onClick={() => navigate("/recuperar_contraseña")}
+            >
               ¿Haz olvidado tu contraseña?
             </a>
           </p>

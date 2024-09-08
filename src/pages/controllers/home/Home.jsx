@@ -10,6 +10,7 @@ import {
 export const Home = () => {
   return (
     <div className="div_home">
+      {/*Modal usuario*/}
       <input type="checkbox" id="btn_modal_user" />
       <div className="c-m">
         <label for="btn_modal_user" className="label-cerrar-modal">
@@ -42,7 +43,10 @@ export const Home = () => {
           </div>
         </div>
       </div>
+      {/*Modal notificaciones*/}
+      <input type="checkbox" id="btn_modal_notifications" />
 
+      {/*Home*/}
       <div className="div_home_img1">
         <img className="img1_home" src={Servi} alt="Servi" />
         <div className="div_home_icons">
@@ -84,12 +88,11 @@ export const Home = () => {
                 <p className="p_li_home">Barrio</p>
                 <p className="p_li_home">Ciudad-Departamento</p>
               </li>
-              <div className="div_mv_background"></div>
+              <label htmlFor=""></label>
             </ul>
           </li>
         </ul>
       </nav>
-
       <div className="div_home_line"></div>
       <div className="div_home_img_servicio">
         <div className="div_home_servcio_name">
