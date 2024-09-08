@@ -1,12 +1,20 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Servi from "../../../assets/img/Servi-2.jpg";
-import { faBell, faCircleUser, faSync } from "@fortawesome/free-solid-svg-icons";
+import "./Home.css";
+import {
+  faBell,
+  faCircleUser,
+  faSync,
+} from "@fortawesome/free-solid-svg-icons";
 
 export const Home = () => {
   return (
     <div className="div_home">
-      <input type="checkbox" id="btn_modal" />
+      <input type="checkbox" id="btn_modal_user" />
       <div className="c-m">
+        <label for="btn_modal_user" className="label-cerrar-modal">
+          {" "}
+        </label>
         <div className="div_content_m">
           <div className="div_foto_perfil">
             <div className="div_ad_fp_icon">
@@ -34,22 +42,18 @@ export const Home = () => {
           </div>
         </div>
       </div>
+
       <div className="div_home_img1">
         <img className="img1_home" src={Servi} alt="Servi" />
         <div className="div_home_icons">
-          <div className="div_user_icon">
-            <label>
-              <FontAwesomeIcon size="2x" icon={faSync} />
+          <div className="div_icon">
+            <label for="btn_modal_user">
+              <ion-icon name="person-circle"></ion-icon>
             </label>
           </div>
-          <div className="div_user_icon">
-            <label>
-              <FontAwesomeIcon size="2x" icon={faCircleUser} />
-            </label>
-          </div>
-          <div className="div_user_icon">
-            <label>
-              <FontAwesomeIcon size="2x" icon={faBell} />
+          <div className="div_icon">
+            <label for="btn_modal_notification">
+              <ion-icon name="notifications"></ion-icon>
             </label>
           </div>
         </div>
@@ -74,11 +78,13 @@ export const Home = () => {
                 <p className="p_li_home">Barrio</p>
                 <p className="p_li_home">Ciudad-Departamento</p>
               </li>
+              <div className="div_home_line"></div>
               <li className="li_home">
                 <p className="p_li_home">Direccion</p>
                 <p className="p_li_home">Barrio</p>
                 <p className="p_li_home">Ciudad-Departamento</p>
               </li>
+              <div className="div_mv_background"></div>
             </ul>
           </li>
         </ul>
@@ -122,5 +128,5 @@ export const Home = () => {
         <img className="img1_home_servicio" src={Servi} alt="Servi" />
       </div>
     </div>
-  )
-}
+  );
+};

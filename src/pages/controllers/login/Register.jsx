@@ -3,7 +3,7 @@ import "./Login.css";
 import { FormControl } from "react-bootstrap";
 
 export function Register() {
-    const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <div>
       <div className="hola">
@@ -15,7 +15,10 @@ export function Register() {
           <label>
             Nombre*
             {/*<input type="text" />*/}
-            <FormControl size="sm" className="bg bg-transparent border-bottom" />
+            <FormControl
+              size="sm"
+              className="bg bg-transparent border-bottom"
+            />
           </label>
         </div>
         <div className="form_input">
@@ -72,9 +75,9 @@ export function Register() {
           </p>
           <p className="p_registrarse">
             {" "}
-            <button className="a_registrarse" onClick={() => navigate('/login')}>
+            <a className="a_registrarse" onClick={() => navigate("/login")}>
               Ingresar
-            </button>
+            </a>
           </p>
         </div>
       </div>
