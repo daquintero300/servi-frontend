@@ -1,0 +1,136 @@
+.servi {
+  padding: 30px 30px 0 40px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.img1{
+  width: 100%;
+}
+
+.error_login > p{
+  background: red;
+  height: 40px;
+  width: 300px;
+  position: absolute;
+  margin: 2.5px 0 0 27px;
+  padding: 10px;
+  border-radius: 10px;
+  color: aliceblue;
+}
+
+.hola{
+  margin: 40px;
+  margin-top: 5px;
+}
+
+h2 {
+  font-size: 27px;
+  margin: 0;
+}
+
+.h2_ingresar{
+  font-weight: 600;
+  color: rgb(24, 138, 167);
+}
+
+p {
+  font-size: 15px;
+  margin-top: 10px;
+  color: gray;
+  font-weight: 100;
+}
+
+.p_ingresar{
+  text-align: center;
+  font-size: 12px;
+  padding: 0%;
+  margin: 5px;
+}
+
+.basic_information{
+  background: rgb(24, 138, 167);
+  margin:  0% 10px 0 10px;
+  padding: 30px 40px 40px 40px;
+  border-radius: 45px;
+  height: 215px;
+  box-shadow: 0px 0px 20px 0px #0008;
+}
+
+.input__login{
+  width: 100%;
+  margin: 20px 0;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  font-weight: 100;
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+label {
+  color: white;
+  font-size: 14px;
+}
+
+.div_ingresar{
+  padding: 95px 45px;
+}
+
+.boton_ingresar {
+  background: rgb(115, 192, 63);
+  border-radius: 10px;
+  height: 50px;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 60px 0 0 0;
+}
+
+.a_google,
+.a_facebook {
+  background: rgb(24, 138, 167);
+  border-radius: 10px;
+  border: none;
+  height: 50px;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 0;
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.a_olvidar_contraseña{
+  text-decoration: none;
+  margin-top: 10px;
+  color: gray;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.a_facebook {
+  transform: translate(3%);
+}
+
+.p_registrarse {
+  display: inline-block;
+}
+
+.a_registrarse {
+  text-decoration: none;
+  color: red;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.div_ya_cuenta {
+  margin: auto;
+}
+
+.label_login {
+    min-width: 100%;
+}

@@ -1,0 +1,267 @@
+/*Home*/
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+.container {
+  padding: 0%;
+}
+
+.div_close {
+  margin: -150px 0px 0px 160px;
+}
+
+.div_close > label > ion-icon {
+  color: rgb(24, 138, 167);
+  font-size: 27px;
+}
+
+#btn_modal_user,
+#btn_modal_notifications,
+#btn_lista_inmuebles,
+#btn_info_user {
+  display: none;
+}
+
+.div_home {
+  background: rgb(24, 138, 167);
+  border-radius: 50px;
+}
+
+.div_home_line {
+  height: 3px;
+  background: white;
+  margin: 40px 25px 30px 25px;
+}
+
+.div_home_img1 {
+  padding: 30px 30px 0 40px;
+  max-width: 100%;
+}
+
+.div_home_img1 {
+  padding-left: 10px;
+  background-color: white;
+  border-radius: 0 0 25px 25px;
+  padding-bottom: 15px;
+  box-shadow: 0px 0px 20px 0px #0008;
+}
+
+.img1_home {
+  width: 40%;
+  margin-bottom: 0;
+  margin-left: 30px;
+}
+
+.div_icon > label > ion-icon {
+  color: rgb(24, 138, 167);
+  font-size: 27px;
+  margin: 0 2px;
+}
+
+.div_icon {
+  display: inline-block;
+}
+
+.div_home_icons {
+  text-align: end;
+  margin-top: -20px;
+  margin-right: 0;
+}
+
+/*Lista Inmuebles*/
+.error_home > p {
+  background: red;
+  height: 75px;
+  width: 231px;
+  position: absolute;
+  margin: 0;
+  padding: 10px;
+  border-radius: 10px;
+  color: aliceblue;
+  transform: translateY(-70px) translateX(-15px);
+}
+
+.error_home > p > ion-icon {
+  font-size: 20px;
+  transform: translateY(5px);
+}
+
+.ul-menu-home {
+  list-style: none;
+  margin: 0%;
+}
+
+p {
+  font-size: 15px;
+  margin-top: 10px;
+  color: gray;
+  font-weight: 100;
+}
+
+.label_home {
+  width: 100%;
+}
+
+.p_li_home {
+  color: white;
+  line-height: 5px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.p_li_servicios_home {
+  color: rgb(192, 228, 236);
+  line-height: 5px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.p_li_servicios_home:hover {
+  color: rgb(255, 255, 255);
+}
+
+.div_inmueblesList {
+  width: 100%;
+  display: inline-block;
+  transform: translateX(-20px);
+  padding: 0 20px;
+}
+
+.div_inmueblesList:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+}
+
+.extend_lista_inmuebles {
+  width: 100%;
+  display: block;
+}
+
+.info__inmueble > label > p {
+  line-height: 20px;
+  text-decoration: none;
+  font-weight: 10;
+}
+
+.info__inmueble > label > p:hover {
+  color: rgb(186, 240, 255);
+}
+
+.div_icon_li_inmuebles {
+  text-align: end;
+  margin-top: -50px;
+  margin-right: 50px;
+}
+
+#btn_lista_inmuebles:checked ~ .l-i {
+  display: inline-block;
+}
+
+.l-i {
+  margin: 0%;
+  width: 100%;
+  z-index: 100;
+  display: inline-block;
+}
+
+.lista__inmuebles {
+  background: rgb(24, 138, 167);
+  width: 100%;
+  border-radius: 0 0 40px 40px;
+}
+
+/*Lista Servicios*/
+.div_home_img_servicio {
+  width: 135px;
+  height: 135px;
+  border-radius: 40px;
+  background: white;
+  margin: 10px 10px 30px 25px;
+  display: inline-block;
+  text-align: center;
+}
+
+.div_home_img_servicio:hover {
+  box-shadow: 0px 0px 50px 0px #0008;
+}
+
+.icon__agregar__servicio {
+  background: red;
+  height: 50%;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  display: contents;
+}
+
+.icon__agregar__servicio > ion-icon {
+  color: blue;
+  display: contents;
+}
+
+.div_home_servcio_name {
+  background: rgb(115, 192, 63);
+  width: 85px;
+  height: 40px;
+  margin: auto;
+  margin-top: -20px;
+  border-radius: 20px;
+  border: 2px solid white;
+  box-sizing: border-box;
+}
+
+.img1_home_servicio {
+  width: 80%;
+  margin: 15px 0px;
+}
+
+h3 {
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.iconArrowClose > label > ion-icon {
+  color: rgb(255, 255, 255);
+  font-size: 27px;
+  margin: 0 2px 15px 2px;
+  transform: rotateZ(90deg);
+  transform: rotateZ(0deg);
+  transition: .3s;
+}
+
+.iconArrowOpen > label > ion-icon {
+  color: rgb(255, 255, 255);
+  font-size: 27px;
+  margin: 0 2px 15px 2px;
+  transform: rotateZ(90deg);
+  transition: .3s;
+}
+
+.div_icons_inmuebles {
+  background-color: none;
+  display: inline-block;
+  width: 35%;
+  text-align: end;
+  padding: 0 10px 0 0;
+  transform: translateY(-5px);
+}
+
+.info_inmueble_list {
+  background-color: none;
+  display: inline-block;
+  width: 65%;
+}
+
+.icon_inmuebles > ion-icon {
+  color: rgb(255, 255, 255);
+  font-size: 27px;
+  margin: 0 2px;
+}

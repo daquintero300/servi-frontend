@@ -1,0 +1,127 @@
+/*Modal Usuario*/
+.div_info_user > label > ion-icon {
+  color: rgb(24, 138, 167);
+  font-size: 27px;
+  margin: -45px 0px 0 190px;
+  position: absolute;
+}
+
+.div_info_user > label {
+  position: absolute;
+}
+
+.extend_info_user {
+  margin: 0%;
+  width: 100%;
+  z-index: 100;
+}
+
+#btn_modal_user,
+#btn_modal_notifications,
+#btn_lista_inmuebles,
+#btn_info_user {
+  display: none;
+}
+
+#btn_modal {
+  display: none;
+}
+
+#btn_modal:checked ~ .c-m {
+  display: flex;
+}
+
+#btn_info_user:checked ~ .extend_info_user {
+  display: flex;
+}
+
+.div_extend_info_user {
+  width: 100%;
+}
+
+.div_ad_fp_icon > ion-icon {
+  font-size: 40px;
+  color: rgb(115, 192, 63);
+  margin: 100px 0 0 -10px;
+}
+
+.div_home_dark_line {
+  height: 3px;
+  background: rgb(24, 138, 167);
+  margin: 25px 0;
+}
+
+.div_home_white_line {
+  height: 3px;
+  background: rgb(255, 255, 255);
+  margin: 15px 0;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(24, 138, 167);
+  line-height: 5px;
+  font-weight: 600;
+}
+
+.info_user {
+  color: rgb(24, 138, 167);
+  line-height: 5px;
+  font-weight: 600;
+}
+
+.info_user_2 {
+  color: rgb(24, 138, 167);
+  line-height: 5px;
+}
+.div_foto_perfil > ion-icon {
+  position: absolute;
+  font-size: 165px;
+  transform: translateY(-15px) translateX(-15px);
+  color: rgb(24, 138, 167);
+}
+.div_foto_perfil {
+  background-color: none;
+  width: 135px;
+  height: 135px;
+  margin: 40px auto;
+}
+
+.div_content_m {
+  margin-top: 28px;
+  height: auto;
+  border-radius: 50px;
+  background: white;
+  max-width: 300px;
+  width: 300px;
+  padding: 0 40px 40px 40px;
+  box-shadow: 0px 0px 100px 0px #000f;
+}
+
+.fondo_c-m {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.c-m {
+  position: absolute;
+  display: flex;
+  margin: 0 28px;
+}
+
+.modal_cerrarSesion {
+  z-index: 3;
+}
+
+.icon_arrowClose > ion-icon {
+  transform: rotateZ(90deg);
+  transform: rotateZ(0deg);
+  transition: 0.3s;
+}
+
+.icon_arrowOpen > ion-icon {
+  transform: rotateZ(90deg);
+  transition: 0.3s;
+}

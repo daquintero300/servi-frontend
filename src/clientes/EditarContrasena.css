@@ -1,0 +1,98 @@
+body {
+  font-weight: 600;
+}
+
+.hola {
+  margin: 40px;
+  margin-top: 5px;
+}
+
+h2 {
+  font-size: 27px;
+  margin: 0;
+}
+
+.h2_actualizarDatos {
+  margin-top: 50px;
+  font-weight: 600;
+  color: rgb(24, 138, 167);
+}
+
+.input__editarCliente {
+  width: 100%;
+  margin: 20px 0;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  font-weight: 100;
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.label_editarCliente {
+  color: white;
+  font-size: 14px;
+  width: 100%;
+}
+
+.editar_contrasena {
+  background: rgb(24, 138, 167);
+  margin: 30px 10px 0 10px;
+  padding: 30px 40px 10px 40px;
+  border-radius: 45px;
+  height: 125px;
+  box-shadow: 0px 0px 20px 0px #0008;
+}
+
+.nueva_contrasena {
+  background: rgb(24, 138, 167);
+  margin: 30px 10px 0 10px;
+  padding: 30px 40px 10px 40px;
+  border-radius: 45px;
+  height: 210px;
+  box-shadow: 0px 0px 20px 0px #0008;
+}
+
+.boton_cambiarContrasena {
+  background: rgb(115, 192, 63);
+  border-radius: 10px;
+  height: 50px;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 55px 0px;
+}
+
+.error_nuevaContrasena > p {
+  background: red;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 10px 0 0 14px;
+  padding: 10px;
+  border-radius: 10px;
+  color: aliceblue;
+}
+
+.error2_nuevaContrasena > p {
+  background: red;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 10px 0 0 8px;
+  padding: 10px;
+  border-radius: 10px;
+  color: aliceblue;
+}
+
+.error_contrasena_actual > p {
+  background: red;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 10px 0 0 27px;
+  padding: 10px;
+  border-radius: 10px;
+  color: aliceblue;
+}

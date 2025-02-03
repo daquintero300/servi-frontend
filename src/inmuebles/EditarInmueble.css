@@ -1,0 +1,71 @@
+/*AgregarInmueble*/
+body {
+  font-weight: 600;
+}
+
+.hola,
+.div_p_rc,
+.div_h2-ev {
+  margin: 40px;
+  margin-top: 5px;
+}
+
+h2 {
+  font-size: 27px;
+  margin: 0;
+}
+
+.h2_registrarse {
+  margin-top: 50px;
+}
+
+p {
+  font-size: 15px;
+  margin-top: 10px;
+  color: gray;
+  font-weight: 100;
+}
+
+.editar_inmueble {
+  background: rgb(24, 138, 167);
+  margin: 0% 10px 0 0;
+  padding: 30px 40px 40px 40px;
+  border-radius: 45px;
+  height: 380px;
+  box-shadow: 0px 0px 20px 0px #0008;
+}
+
+.input_actualizarInmueble {
+  width: 100%;
+  margin: 20px 0;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  font-weight: 100;
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.label_editarInmueble {
+  color: white;
+  font-size: 14px;
+  width: 100%;
+}
+
+.div_ingresar,
+.div_continuar,
+.div_sub_rc,
+.div_sub_ev {
+  padding: 60px 45px;
+}
+
+.boton_ingresar {
+  background: rgb(115, 192, 63);
+  border-radius: 10px;
+  height: 50px;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 50px 0;
+}

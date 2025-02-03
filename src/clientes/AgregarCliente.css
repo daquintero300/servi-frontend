@@ -1,0 +1,96 @@
+body {
+  font-weight: 600;
+}
+
+.hola {
+  margin: 40px;
+  margin-top: 5px;
+}
+
+h2 {
+  font-size: 27px;
+  margin: 0;
+}
+
+p {
+  font-size: 15px;
+  margin-top: 10px;
+  color: gray;
+  font-weight: 100;
+}
+
+.register_information {
+  background: rgb(24, 138, 167);
+  margin: 0% 10px 0 0;
+  padding: 30px 40px 40px 40px;
+  border-radius: 45px;
+  height: 720px;
+  box-shadow: 0px 0px 20px 0px #0008;
+}
+
+.input_agregarCliente {
+  width: 100%;
+  margin: 20px 0;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  font-weight: 100;
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.label_agregarCliente {
+  color: white;
+  font-size: 14px;
+  width: 100%;
+}
+
+.div_continuar {
+  padding: 60px 45px;
+}
+
+.btn_crear_usuario {
+  background: rgb(115, 192, 63);
+  border-radius: 10px;
+  height: 50px;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 40px 0;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid white;
+}
+
+.p_olvidar_contraseña {
+  display: inline-block;
+}
+
+.a_olvidar_contraseña,
+.label_politicas {
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: 10px;
+  color: gray;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.p_registrarse {
+  display: inline-block;
+  transform: translate(5%);
+}
+
+.a_registrarse {
+  text-decoration: none;
+  color: red;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.h2_registrarUsuario{
+  margin-top: 50px;
+  font-weight: 600;
+  color: rgb(24, 138, 167);
+}

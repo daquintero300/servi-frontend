@@ -1,0 +1,119 @@
+body {
+  font-weight: 600;
+}
+
+.reuperarContrasena {
+  margin: 40px;
+  background-color: none;
+}
+
+.h2_recuperarContrasena {
+  font-size: 26px;
+  margin: 0;
+  font-weight: 600;
+  color: rgb(24, 138, 167);
+}
+
+.div_recuperarContrasena_icons {
+  background-color: none;
+  margin: 30px 40px 0 40px;
+}
+
+.p_recuperarContrasena {
+  font-size: 15px;
+  margin-top: 10px;
+  font-weight: 100;
+  color: rgb(24, 138, 167);
+}
+
+.div_p_recuperarContrasena {
+  background-color: none;
+  margin: 125px 0 20px 0;
+  text-align: center;
+}
+
+.email {
+  background: rgb(24, 138, 167);
+  margin: 0 10px 0 10px;
+  padding: 30px 40px 40px 40px;
+  border-radius: 45px;
+  height: 120px;
+  box-shadow: 0px 0px 20px 0px #0008;
+}
+
+.input_agregarCliente {
+  width: 100%;
+  margin: 20px 0;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  font-weight: 100;
+  color: white;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.label_recuperarContrasena {
+  color: white;
+  font-size: 14px;
+  width: 100%;
+}
+
+.div_continuar {
+  padding: 60px 45px;
+}
+
+.btn_crear_usuario {
+  background: rgb(115, 192, 63);
+  border-radius: 10px;
+  height: 50px;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 25px 0;
+}
+
+.p_olvidar_contraseña {
+  display: inline-block;
+}
+
+.a_olvidar_contraseña,
+.label_politicas {
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: 10px;
+  color: gray;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.p_registrarse {
+  display: inline-block;
+  transform: translate(5%);
+}
+
+.a_registrarse {
+  text-decoration: none;
+  color: red;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.div_input_solicitarContrasena {
+  margin: 130px 0;
+}
+
+.error_recuperarContrasena > p {
+  background: red;
+  width: 290px;
+  position: absolute;
+  margin: 2.5px 0 0 27px;
+  padding: 10px;
+  border-radius: 10px;
+  color: aliceblue;
+  transform: translateY(15px) translateX(-43px);
+}
+
+.div_h2_recuperarContrasena{
+  text-align: center;
+}
